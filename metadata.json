@@ -1,69 +1,14 @@
 {
-    "name": "tiles",
-    "description": "tiles",
-    "version": "2",
-    "minzoom": "0",
-    "maxzoom": "10",
-    "center": "94.042969,19.807968,10",
-    "bounds": "92.276481,17.549705,94.809423,21.287343",
-    "type": "overlay",
-    "format": "pbf",
-    "generator": "tippecanoe v1.36.0",
-    "generator_options": "tippecanoe -zg --force -e tiles --drop-densest-as-needed --no-tile-compression roads.geojson",
-    "vector_layers": [
-        {
-            "id": "roads",
-            "description": "",
-            "minzoom": 0,
-            "maxzoom": 10,
-            "fields": {
-                "id": "Number"
-            }
-        }
-    ],
-    "tilestats": {
-        "layerCount": 1,
-        "layers": [
-            {
-                "layer": "roads",
-                "count": 23,
-                "geometry": "LineString",
-                "attributeCount": 1,
-                "attributes": [
-                    {
-                        "attribute": "id",
-                        "count": 23,
-                        "type": "number",
-                        "values": [
-                            1,
-                            15,
-                            16,
-                            18,
-                            19,
-                            2,
-                            21,
-                            22,
-                            23,
-                            24,
-                            25,
-                            26,
-                            27,
-                            28,
-                            29,
-                            3,
-                            30,
-                            31,
-                            4,
-                            5,
-                            6,
-                            7,
-                            8
-                        ],
-                        "min": 1,
-                        "max": 31
-                    }
-                ]
-            }
-        ]
-    }
+"name": "tiles",
+"description": "tiles",
+"version": "2",
+"minzoom": "0",
+"maxzoom": "10",
+"center": "94.042969,19.807968,10",
+"bounds": "92.276481,17.549705,94.809423,21.287343",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v1.36.0",
+"generator_options": "tippecanoe -zg --force -e tiles --drop-densest-as-needed --no-tile-compression roads.geojson",
+"json": "{\"vector_layers\": [ { \"id\": \"roads\", \"description\": \"\", \"minzoom\": 0, \"maxzoom\": 10, \"fields\": {\"id\": \"Number\", \"type\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"roads\",\"count\": 23,\"geometry\": \"LineString\",\"attributeCount\": 2,\"attributes\": [{\"attribute\": \"id\",\"count\": 23,\"type\": \"number\",\"values\": [1,15,16,18,19,2,21,22,23,24,25,26,27,28,29,3,30,31,4,5,6,7,8],\"min\": 1,\"max\": 31},{\"attribute\": \"type\",\"count\": 1,\"type\": \"string\",\"values\": [\"road\"]}]}]}}"
 }
